@@ -22,6 +22,7 @@
 		81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */; };
 		8374E1021D9AB18E00E7A0B7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8374E1011D9AB18E00E7A0B7 /* libsqlite3.tbd */; };
 		8374E1041D9AB24200E7A0B7 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8374E1031D9AB24200E7A0B7 /* libstdc++.6.tbd */; };
+		C3A6375C20E5329100B33654 /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6375B20E5329100B33654 /* AddMovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8374E1011D9AB18E00E7A0B7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		8374E1031D9AB24200E7A0B7 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		C3A6375B20E5329100B33654 /* AddMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				38059AA820E4BDF4001A044F /* LoggedInViewController.swift */,
 				38059AAA20E4BEF7001A044F /* Extensions.swift */,
 				38059AAE20E4E7BE001A044F /* MovieListTableViewController.swift */,
+				C3A6375B20E5329100B33654 /* AddMovieViewController.swift */,
 			);
 			path = beforeapp;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				38059AAF20E4E7BE001A044F /* MovieListTableViewController.swift in Sources */,
 				38059AA920E4BDF4001A044F /* LoggedInViewController.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
+				C3A6375C20E5329100B33654 /* AddMovieViewController.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
 				38059AAB20E4BEF7001A044F /* Extensions.swift in Sources */,
 				38059AAD20E4C970001A044F /* Movie.swift in Sources */,
